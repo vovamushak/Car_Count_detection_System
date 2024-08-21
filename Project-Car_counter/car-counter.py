@@ -11,7 +11,7 @@ from sort import *
 #video
 cap = cv2.VideoCapture("../Videos/cars.mp4")
 
-
+#Model definition
 model = YOLO('../Yolo-Weights/yolov8n.pt')
 
 classNames = ["person", "bicycle", "car", "motorbike", "aeroplane", "bus", "train", "truck", "boat",
