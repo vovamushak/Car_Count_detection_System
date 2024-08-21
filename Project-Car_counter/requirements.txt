@@ -1,5 +1,6 @@
 # Object Detection Course
 
+# Set env
 cvzone==1.5.6
 ultralytics==8.0.26
 hydra-core>=1.2.0
